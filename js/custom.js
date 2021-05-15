@@ -6,12 +6,6 @@ $(window).on("load", function () {
 var $iframe = $("iframe"),
   src = $iframe.data("src");
 
-if (window.matchMedia("(min-width: 720px)").matches) {
-  $iframe.attr("src", src);
-} else {
-  $iframe.css("display", "none");
-}
-
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
