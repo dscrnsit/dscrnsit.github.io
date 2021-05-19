@@ -39,8 +39,8 @@
       "type": "image/png"
     },
     {
-      "src": "images/assets/pwa/icon384.png",
-      "sizes": "384x384",
+      "src": "images/assets/pwa/icon256.png",
+      "sizes": "256x256",
       "type": "image/png"
     },
     {
