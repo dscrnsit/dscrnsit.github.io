@@ -1,7 +1,7 @@
 {
   "background_color": "#2F5BE7",
   "display": "standalone",
-  "orientation":"portrait",
+  "orientation": "portrait",
   "theme_color": "#2F5BE7",
   "short_name": "DSC RNSIT",
   "name": "DSC RNS Institute of Technology",
@@ -49,5 +49,5 @@
       "type": "image/png"
     }
   ],
-  "start_url": "index.html?launcher=true"
+  "start_url": "index.html"
 }

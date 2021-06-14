@@ -2261,3 +2261,9 @@ hr {
 .wow {
   visibility: hidden;
 }
+
+.carousel-control-next,
+.carousel-indicators,
+.carousel-control-prev /*, .carousel-indicators */ {
+  filter: invert(100%);
+}

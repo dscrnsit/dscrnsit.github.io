@@ -1,5 +1,5 @@
 var APP_PREFIX = "DSC RNSIT"; // Identifier for this app (this needs to be consistent across every cache update)
-var VERSION = "version_02"; // Version of the off-line cache (change this value everytime you want to update cache)
+var VERSION = "version_03"; // Version of the off-line cache (change this value everytime you want to update cache)
 var CACHE_NAME = APP_PREFIX + VERSION;
 var URLS = [
   // Add URL you want to cache in this list.
@@ -14,9 +14,8 @@ var URLS = [
   "/css/responsive.css",
   "/css/styles.css",
   "/css/swiper.min.css",
-  "/images/assets/events/fba.png",
-  "/images/assets/events/fbw.png",
-  "/images/assets/events/rpj.png",
+  "/css/lite-yt-embed.css",
+  "/images/assets/events/",
   "/images/assets/diversity.png",
   "/images/assets/logo2.png",
   "/images/assets/team/",
@@ -32,6 +31,8 @@ var URLS = [
   "/js/vendors/jquery.min.js",
   "/js/vendors/owl.carousel.min.js",
   "/js/vendors/swiper.min.js",
+  "/js/vendors/scrollreveal.js",
+  "/js/vendors/lite-yt-embed.js",
   "/service-worker.js",
   "/manifest.json",
 ];
